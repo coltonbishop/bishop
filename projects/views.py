@@ -1,7 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.views.static import serve
+import os
 
 # Create your views here.
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+def language(request):
+	context = {
+	}
+	return render(request, 'gallery/index.html', context)
