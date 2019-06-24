@@ -12,7 +12,33 @@
 ====================================================
 
 	TOC
-	
+	Rype, Wengga, Donatello, Tigertales, HiveScience, Alquilando, BBH
+
+	Machine Learning Projects (Wengga, Donatello, Rype)
+	Web Applications (Wengga, Tigertales, DeepMesh, ESG, Personal Site)
+	iOS Applications (Rype, HiveScience)
+	Research Papers (3D Modeling Paper, Neural Translation Paper)
+
+	RYPE {done!}
+	TigerTales {done!}
+	Puentes {done!}
+	HiveScience {done!}
+	Alquilando Suite {done!}
+	Personal Website {done!}
+	ESG App {done!}
+
+	Donatello- website {done!}
+	DeepMesh- architecture {done!}
+	Aided CNN Research Paper {done!}
+
+	Wengga {done!}
+	Wengga Network {done!}
+	Wengga Paper {...}
+
+
+
+
+
 	1. PRIMARY STYLES
 	2. COMMONS FOR PAGE DESIGN
 	3. HEADER
@@ -98,6 +124,8 @@ b.max-bold{ font-weight: 700; }
 
 .font-yellow{ color: #FFA600; }
 
+.font-grey{ color: #FFA600; }
+
 .font-semi-white{ color: #ddd; }
 
 .font-lite-black{ color: #999; }
@@ -109,7 +137,7 @@ b.max-bold{ font-weight: 700; }
 
 header{ position: absolute; top: 30px; left: 0; right: 0; z-index: 100; }
 
-header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #FFAD01; color: #fff; }
+header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: #28023D; color: #fff; }
 
 header .info{ margin-bottom: 10px; }
 
@@ -118,7 +146,7 @@ header .info .icon{ float: left; font-size: 30px; }
 header .info .right-area{ margin-left: 45px; }
 
 header .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
-	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: #FFAD01; color: #fff; 
+	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: #FFA804; color: #fff; 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
@@ -129,7 +157,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .intro-section{ padding-top: 200px; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(../../images/slider-1-1920x1080.jpg); }
+	z-index: 1;background-image: url(../../images/grey.jpg); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
