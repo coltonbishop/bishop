@@ -1,108 +1,322 @@
-<!DOCTYPE HTML>
-{% load static %}
+ <!DOCTYPE html>
+ {% load static %}
 <html lang="en">
-<head>
-	<title>Colton Bishop</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	
-	
-	<!-- Font -->
-	
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
-	
-	<!-- Stylesheets -->
-	
-	<link href="{% static 'common-css/bootstrap.css' %}" rel="stylesheet">
-	
-	<link href="{% static 'common-css/ionicons.css' %}" rel="stylesheet">
-	
-	<link href="{% static 'common-css/fluidbox.min.css' %}" rel="stylesheet">
-	
-	<link href="{% static '01-cv-portfolio/css/styles.css' %}" rel="stylesheet">
-	
-	<link href="{% static '01-cv-portfolio/css/responsive.css' %}" rel="stylesheet">
-	
-</head>
-<body>
-	
-	<header>
-		<div class="container">
-			<div class="heading-wrapper">
-				<div class="row">
+    <meta charset="UTF-8">
+    <title>Colton Bishop</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}" >
+    <!-- Icon -->
+    <link rel="stylesheet" href="{% static 'assets/fonts/line-icons.css' %}">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.theme.css' %}">
+    <!-- Animate -->
+    <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+    <!-- Icons -->
+    <link rel="rype-icon" type="image/png" href="{% static 'icons/rype.png' %}">
+    <link rel="hive-icon" type="image/png" href="{% static 'icons/hive.png' %}">
+    <link rel="alquilando-icon" type="image/png" href="{% static 'icons/alquilando.png' %}">
+    <link rel="donatello-icon" type="image/png" href="{% static 'icons/donatello.png' %}">
+    <link rel="deep-icon" type="image/png" href="{% static 'icons/deep.png' %}">
+    <link rel="bishop-icon" type="image/png" href="{% static 'icons/bishop.png' %}">
+    <link rel="esg-icon" type="image/png" href="{% static 'icons/esg.png' %}">
+    <link rel="tt-icon" type="image/png" href="{% static 'icons/tt.png' %}">
+    <link rel="puentes-icon" type="image/png" href="{% static 'icons/puentes.png' %}">
+    <link rel="aided-icon" type="image/png" href="{% static 'icons/aided.png' %}">
+    <link rel="wengga-icon" type="image/png" href="{% static 'icons/wengga.png' %}">
+    <link rel="wengga-net-icon" type="image/png" href="{% static 'icons/wengga-net.png' %}">
 
 
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-code"></i>
-							<div class="right-area">
-								<h5><a href="projects/"><br>Project Portolio</a></h5>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
 
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-information-circled"></i>
-							<div class="right-area">
-								<h5><a href="#aboutme"><br>About Me</a></h5>
-								<h5></h5>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link href="{% static 'common-css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'common-css/ionicons.css' %}" rel="stylesheet">
+    <link href="{% static 'common-css/fluidbox.min.css' %}" rel="stylesheet">
+    <link href="{% static '01-cv-portfolio/css/styles2.css' %}" rel="stylesheet">
+    <link href="{% static '01-cv-portfolio/css/responsive.css' %}" rel="stylesheet">
 
 
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-ios-chatboxes-outline"></i>
-							<div class="right-area">
-								<h5>+1 (518) 744-3011</h5>
-								<h6>cmbishop@princeton.edu</h6>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
+  <style>
+        .rype {
+        background: url("{% static 'icons/rype.png' %}");
+        height: 70px;
+        width: 70px;
+        display: block;
+        /* Other styles here */
+        }
+
+  </style>
 
 
-				</div><!-- row -->
-			</div><!-- heading-wrapper -->
-			
-			<a class="downlad-btn" href="/resume">Download CV</a>
-		</div><!-- container -->
-	</header>
-	
-<h1> <br><br><br>Hey you've reached the portfolio gallery!<br><br><br> </h1>
-	
+
+    </head>
+  <body>
+  <header>
 
 
-	
-	<footer>
-		<p class="copyright">
-			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		</p>
+    <div class="container">
+      <div class="heading-wrapper">
+
+        <div class="row">
 
 
-	</footer>
-	
-	
-	<!-- SCIPTS -->
-	<script src="{% static 'common-js/jquery-3.2.1.min.js' %}"></script>
-	
-	<script src="{% static 'common-js/tether.min.js' %}"></script>
-	
-	<script src="{% static 'common-js/bootstrap.js' %}"></script>
-	
-	<script src="{% static 'common-js/isotope.pkgd.min.js' %}"></script>
-	
-	<script src="{% static 'common-js/jquery.waypoints.min.js' %}"></script>
-	
-	<script src="{% static 'common-js/progressbar.min.js' %}"></script>
-	
-	<script src="{% static 'common-js/jquery.fluidbox.min.js' %}"></script>
-	
-	<script src="{% static 'common-js/scripts.js' %}"></script>
-	
-</body>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="info">
+              <i class="icon ion-home"></i>
+              <div class="right-area">
+                <h5><a href="/"><br>Home</a></h5>
+              </div><!-- right-area -->
+            </div><!-- info -->
+          </div><!-- col-sm-4 -->
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="info">
+              <i class="icon ion-information-circled"></i>
+              <div class="right-area">
+                <h5><a href="/#aboutme"><br>About Me</a></h5>
+                <h5></h5>
+              </div><!-- right-area -->
+            </div><!-- info -->
+          </div><!-- col-sm-4 -->
+
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="info">
+              <i class="icon ion-ios-chatboxes-outline"></i>
+              <div class="right-area">
+                <h5>+1 (518) 744-3011</h5>
+                <h6>cmbishop@princeton.edu</h6>
+              </div><!-- right-area -->
+            </div><!-- info -->
+          </div><!-- col-sm-4 -->
+
+
+        </div><!-- row -->
+      </div><!-- heading-wrapper -->
+      
+      <a class="downlad-btn" href="/resume">Download CV</a>
+    </div><!-- container -->
+  </header>
+  <br><br><br><br><br><br><br>
+    <!-- Services Section Start -->
+    <section id="services" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Project Portfolio</h2>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+        <div class="row">
+
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-cog"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Easy To Used</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-cog"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Easy To Used</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-cog"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Easy To Used</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+          
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-cog"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Easy To Used</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-cog"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Easy To Used</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-cog"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Easy To Used</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-cog"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Easy To Used</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.6s">
+              <div class="icon">
+                <i class="rype"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Awesome Design</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.9s">
+              <div class="icon">
+                <i class="lni-users"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Easy To Customize</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
+              <div class="icon">
+                <i class="lni-layers"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">UI/UX Design</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.5s">
+              <div class="icon">
+                <i class="lni-mobile"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">App Development</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.8s">
+              <div class="icon">
+                <i class="lni-rocket"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">User Friendly interface</a></h3>
+                <p>Ut maximus enim dolor. Aenean auctor risus eget tincidunt lobortis. Donec tincidunt bibendum gravida. </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+  
+        <footer>
+          <p class="copyright">
+          </p>
+        </footer>
+        
+
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    	<i class="lni-arrow-up"></i>
+    </a>
+    
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{% static 'assets/js/jquery-min.js' %}"></script>
+    <script src="{% static 'assets/js/popper.min.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'assets/js/wow.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.nav.js' %}"></script>
+    <script src="{% static 'assets/js/scrolling-nav.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.easing.min.js' %}"></script>  
+    <script src="{% static 'assets/js/main.js' %}"></script>
+    <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
+    <script src="{% static 'assets/js/contact-form-script.min.js' %}"></script>
+      <!-- SCIPTS -->
+
+
+      
+  </body>
 </html>
