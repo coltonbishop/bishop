@@ -1,6 +1,6 @@
-# Wengga Translators
+# Personal Website
 
-Visit https://wengga.herokuapp.com/ to learn more or contribute to a translator!
+Visit https://www.bishopcolton.com to see projects I'm working on!
 
 <p align="center">
 <img src="resources/personal.png" width = "500px" />
