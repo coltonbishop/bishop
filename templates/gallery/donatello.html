@@ -87,16 +87,47 @@
     <img src="{% static 'portfolio/donatello.png' %}" style="width:400px;">
     </center>  <br>
     <center>
-    <a href="https://github.com/coltonbishop"><i class="ion-social-github" style="font-size: 50px;"></i></a> </center>
+    <a href="https://github.com/coltonbishop/donatello"><i class="ion-social-github" style="font-size: 50px;"></i></a> </center>
     <br>
 
     <center>
-    <h4> Symmetry and topology-aware convolutional neural network to transform 2D images into 3D mesh models. </h4>
+    <h4> Symmetry and topology-aware convolutional neural network to transform 2D images into 3D mesh models. This system builds upon a current state of the art approach to 3D reconstruction: Pixel2Mesh. </h4>
     </center><br>
 
     <center>
-    <img src="{% static 'readmedia/deepmesh/complex.png' %}" style="width:400px;">
+    <h4> To learn more, download or read the full research paper by clicking below!</h4>
+    </center><br>
+
+    <center>
+    <a href="/report"><i class="ion-ios-paper" style="font-size: 50px;"></i></a> </center>
+    <br>
+
+
+    <center>
+    <h4>Pixel2Mesh is an end-to-end deep learning architecture that produces a
+    3D shape in triangular mesh from a single color image by representing a 3D mesh in a graph-based convolutional neural network and producing correct geometry by progressively deforming an ellipsoid, leveraging perceptual features extracted from the input image. To learn more about this approach, <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Nanyang_Wang_Pixel2Mesh_Generating_3D_ECCV_2018_paper.pdf">click here.</a></h4>
+    </center><br>
+
+    <center>
+    <img src="{% static 'readmedia/donatello/architecture.png' %}" style="width:900px;">
     </center>  <br>
+
+
+    <center>
+    <h4><b><u>Awareness of Symmetry</u></b>: To make the network symmetry-aware, I wrote software to determine planes of symmetry in the meshes of the the training dataset ShapeNet. The system was then trained to take the plane symmetry of symmetry as an input parameter.</h4>
+    </center><br>
+
+    <center>
+    <img src="{% static 'readmedia/deepmesh/skull.jpg' %}" style="width:400px;">
+    </center>  <br>
+    <center>
+    <img src="{% static 'readmedia/deepmesh/sym.png' %}" style="width:400px;">
+    </center>  <br>
+
+
+    <center>
+    <h4><b><u>Awareness of Topology</u></b>:To make the network topology and domain-aware, I wrote software that transforms the initial base ellipsoid to conform to a specified topology or object domain using a non-rigid iterative closest point deformation algorithm. The user can either select from the provided topoligies or upload a mesh model with the target topolggy.</h4>
+    </center><br>
 
     <center>
     <img src="{% static 'readmedia/deepmesh/domain.png' %}" style="width:400px;">
@@ -104,33 +135,27 @@
 
 
     <center>
-    <img src="{% static 'readmedia/deepmesh/skull.jpg' %}" style="width:400px;">
+    <h4><b><u>Awareness of Complexity</u></b>:To enable the system to handle complex topologies (or objects with a genus greater than 0), I wrote software that allows the user to indicate lines of complexity through a graphical user interface. The system then models components of the complex object separately.</h4>
+    </center><br>
+
+    <center>
+    <img src="{% static 'readmedia/deepmesh/complex.png' %}" style="width:400px;">
     </center>  <br>
 
 
     <center>
-    <img src="{% static 'readmedia/deepmesh/sym.png' %}" style="width:400px;">
+    <h4><b><u>Evaluation</u></b>: My quantitative evaluation metric employed a standard point-wise comparision between the generated meshes and the ground truth meshes. The symmetry and topology-aware system performed better than the baseline state-of-the-art implementation. I also evaluated qualatative aspects such as  symmetry, continuity, and complexity. To read the full results, click the link above to view the full report. </h4>
+    </center><br>
+
+    <center>
+    <img src="{% static 'readmedia/deepmesh/error.png' %}" style="width:200px;">
     </center>  <br>
 
 
     <center>
-    <img src="{% static 'readmedia/deepmesh/demo1.gif' %}" style="width:400px;">
+    <img src="{% static 'readmedia/donatello/models.png' %}" style="width:500px;">
     </center>  <br>
 
-
-    <center>
-    <img src="{% static 'readmedia/deepmesh/demo2.gif' %}" style="width:400px;">
-    </center>  <br>
-
-
-    <center>
-    <img src="{% static 'readmedia/deepmesh/error.png' %}" style="width:400px;">
-    </center>  <br>
-
-
-    <center>
-    <img src="{% static 'readmedia/deepmesh/poster.png' %}" style="width:400px;">
-    </center>  <br>
 
 
   </div>
