@@ -226,7 +226,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 7. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #28023D; color: #fff; }
+.experience-section{}
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
@@ -237,6 +237,8 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 /* ---------------------------------
 8. EDUCATION SECTION
 --------------------------------- */
+
+.education-section{ background: #28023D; color: #fff; }
 
 .education-wrapper{ position: relative; }
 
