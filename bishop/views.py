@@ -13,6 +13,6 @@ def resume(request):
 	objectpath = 'projects/static/resume.pdf'
 	return serve(request, os.path.basename(objectpath), os.path.dirname(objectpath))
 
-def report(request):
-	objectpath = 'projects/static/report.pdf'
+def assistedmodeling(request):
+	objectpath = 'projects/static/assistedmodeling.pdf'
 	return serve(request, os.path.basename(objectpath), os.path.dirname(objectpath))

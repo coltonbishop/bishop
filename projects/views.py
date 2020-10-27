@@ -8,7 +8,7 @@ import os
 def language(request):
 	context = {
 	}
-	return render(request, 'gallery/index.html', context)
+	return render(request, 'landing/index.html', context)
 
 def wengga(request):
 	context = {
@@ -69,3 +69,16 @@ def puentes(request):
 	context = {
 	}
 	return render(request, 'gallery/puentes.html', context)
+
+def activelearning(request):
+	objectpath = 'projects/static/activelearning.pdf'
+	return serve(request, os.path.basename(objectpath), os.path.dirname(objectpath))
+
+def nmt(request):
+	objectpath = 'projects/static/nmt.pdf'
+	return serve(request, os.path.basename(objectpath), os.path.dirname(objectpath))
+
+def pokedex(request):
+	objectpath = 'projects/static/pokedex.pdf'
+	return serve(request, os.path.basename(objectpath), os.path.dirname(objectpath))
+

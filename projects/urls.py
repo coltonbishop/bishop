@@ -17,6 +17,9 @@ urlpatterns = [
     path('esg', views.esg, name='language'),
     path('tigertales', views.tigertales, name='language'),
     path('puentes', views.puentes, name='language'),
+    path('pokedex', views.pokedex, name='language'),
+    path('activelearning', views.activelearning, name='language'),
+    path('nmt', views.nmt, name='language'),
 ]
 
 
