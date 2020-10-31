@@ -20,6 +20,7 @@ urlpatterns = [
     path('pokedex', views.pokedex, name='language'),
     path('activelearning', views.activelearning, name='language'),
     path('nmt', views.nmt, name='language'),
+    path('dnc_pipeline', views.dnc_pipeline, name='language'),
 ]
 
 

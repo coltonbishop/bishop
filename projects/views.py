@@ -82,3 +82,6 @@ def pokedex(request):
 	objectpath = 'projects/static/pokedex.pdf'
 	return serve(request, os.path.basename(objectpath), os.path.dirname(objectpath))
 
+def dnc_pipeline(request):
+	objectpath = 'projects/static/dnc_pipeline.pdf'
+	return serve(request, os.path.basename(objectpath), os.path.dirname(objectpath))

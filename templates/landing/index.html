@@ -76,7 +76,7 @@
 						<ul class="information margin-tb-30">
 							<li><b >Degree: </b>BSE in Computer Science</li>
 							<li><b>Minor: </b>Statistics and Machine Learning</li>
-							<li><b>Interests: </b>Music, Language Learning, Technology for Impact</li>
+							<li><b>Passions: </b>Effective Altruism, Language Learning, and Technology for Impact</li>
 <!-- 							<br><li style="text-align: justify; "><b>Interests: </b>Technology for Impact, Resource Scarce Machine</li> -->
 						</ul>
 						<ul class="social-icons">
@@ -105,9 +105,10 @@
 					<div class="portfolioFilter clearfix margin-b-80">
 						<a href="#" data-filter="*" class="current"><b>All</b></a>
 						<a href="#" data-filter=".featured"><b>Featured</b></a>
-						<a href="#" data-filter=".web"><b>Web Development</b></a>
-						<a href="#" data-filter=".ios"><b>Mobile Development</b></a>
-						<a href="#" data-filter=".ml"><b>ML Projects</b></a>
+						<a href="#" data-filter=".web"><b>Web</b></a>
+						<a href="#" data-filter=".ios"><b>Mobile</b></a>
+						<a href="#" data-filter=".ml"><b>ML</b></a>
+						<a href="#" data-filter=".impact"><b>Impact</b></a>
 						<a href="#" data-filter=".research"><b>Research</b></a>
 					</div><!-- portfolioFilter -->
 				</div><!-- col-sm-8 -->
@@ -177,12 +178,25 @@
 				</a>
 			</div><!-- p-item -->
 
+			<div class="p-item">
+				<a href="http://mastonian.herokuapp.com/" onclick="location.href='http://mastonian.herokuapp.com/';">
+					<img src="{% static 'portfolio/mastonian.png' %}" alt="">
+				</a>
+			</div><!-- p-item -->
+
 			<div class="p-item featured ml ios">
 				<a href="/projects/rype" onclick="location.href='/projects/rype';">
 					<img src="{% static 'portfolio/rype.png' %}" alt="">
 				</a>
 			</div><!-- p-item -->
 			
+			<div class="p-item featured impact ml research">
+				<a href="https://github.com/coltonbishop/bspl" onclick="location.href='https://github.com/coltonbishop/bspl';">
+					<img src="{% static 'portfolio/andlinger.png' %}" alt="">
+				</a>
+			</div><!-- p-item -->
+
+
 			<div class="p-item featured web">
 				<a href="/projects/tigertales" onclick="location.href='/projects/tigertales';">
 					<img src="{% static 'portfolio/tt.png' %}" alt="">
@@ -207,6 +221,36 @@
 					<img src="{% static 'portfolio/nmt.png' %}" alt="">
 				</a>
 			</div><!-- p-item -->
+
+
+			<div class="p-item ios">
+				<a href="https://github.com/coltonbishop/ios-playground" onclick="location.href='https://github.com/coltonbishop/ios-playground';">
+					<img src="{% static 'portfolio/prankcall.png' %}" alt="">
+				</a>
+			</div><!-- p-item -->
+
+
+			<div class="p-item featured">
+				<a href="/projects/dnc_pipeline" onclick="location.href='/projects/dnc_pipeline';">
+					<img src="{% static 'portfolio/dnc_pipeline.png' %}" alt="">
+				</a>
+			</div><!-- p-item -->
+
+
+			<div class="p-item ios">
+				<a href="https://github.com/coltonbishop/ios-playground" onclick="location.href='https://github.com/coltonbishop/ios-playground';">
+					<img src="{% static 'portfolio/audiodrill.png' %}" alt="">
+				</a>
+			</div><!-- p-item -->
+
+
+			<div class="p-item web">
+				<a href="https://www.thepersonproject.org/" onclick="location.href='https://www.thepersonproject.org/';">
+					<img src="{% static 'portfolio/personproject.png' %}" alt="">
+				</a>
+			</div><!-- p-item -->
+
+
 
 
 <!-- 			<div class="p-item p-item-2">
@@ -235,7 +279,7 @@
 							<h5 class="font-yellow"><b>BSE in Computer Science <br></b></h5>
 							<h6 class="font-lite-black margin-t-10">2016-2020 (Anticipated Graduation: December 2020) </h6>
 							<p class="font-semi-white margin-tb-30">Currently in pursuit of a Bachelor of Science in Engineering in Computer Science at Princeton University with a minor in Statistics and Machine Learning. My academic research has centered on cloud computing, 3D modeling, and machine translation. </p>
-							<p class="font-semi-white margin-tb-30"> At Princeton, I sing Tenor II with the Princeton Tigertones, serve as a Davis International Center student leader and lead International Orientation, swim for Club Swim team, and volunteer with the National Suicide Prevention Lifeline and Petey Greene prison tutoring program. I also work as a quantatitive research assistant in two faculuty research groups: the Behavioral Science for Policy Lab and the Person Project.</p>
+							<p class="font-semi-white margin-tb-30"> At Princeton, I sing Tenor II with the Princeton Tigertones, serve as a Davis International Center student leader and lead International Orientation, swim on the Club Swim team, and volunteer with the National Suicide Prevention Lifeline and Petey Greene prison tutoring program. I also work as a quantatitive research assistant in two faculuty research groups: the Behavioral Science for Policy Lab and the Person Project.</p>
 						</div><!-- education -->
 
 						<div class="education margin-b-50">
@@ -313,7 +357,7 @@
 						<ul class="list margin-b-30"><br>
 						<li>Interned on the Application Production Team.</li><br><br>
 						<li>Proposed and developed a MEAN-stack web application to collect, analyze, and visualize environmental performance data across offices; invited to present to senior leaders in the New York, Zurich, and Luxembourg offices. </li><br><br>
-						<li>Developed Java scripts to automate the maintenance and testing of major firm-wide applications and web portals. </li>
+						<li>Developed Java scripts to automate the maintenance and testing of major firm-wide applications and web portals. </li><br><br>
 						<li>One of three charged with overseeing the migration of legacy testing scripts to a new integrated platform.</li><br><br>
 
 						</ul>
