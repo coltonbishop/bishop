@@ -199,6 +199,8 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .portfolio-section .p-item{ width: 33.333%; padding: 0 7.5px 0px; margin-top: 15px; }
 
+.portfolio-section .p-item:hover{ border: 8px solid #FFFFFF; filter: opacity(.85); border-radius: 0px; }
+
 .portfolio-section .p-item a{ display: inline; }
 
 .portfolio-section .p-item.p-item-2 .img:first-child{ float: left; width: 50%; padding-right: 7.5px; }

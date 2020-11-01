@@ -801,7 +801,7 @@ pre code {
 @media (min-width: 768px) {
   .container {
     width: 720px;
-    max-width: 100%;
+    max-width: 100%; 
   }
 }
 
