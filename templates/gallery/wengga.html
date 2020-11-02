@@ -1,4 +1,5 @@
- <!DOCTYPE html>
+
+<!DOCTYPE html>
  {% load static %}
 <html lang="en">
   <head>
@@ -35,6 +36,7 @@
     </head>
 
   <body>
+
   <header>
     <div class="container">
       <div class="heading-wrapper">
@@ -43,7 +45,7 @@
             <div class="info">
               <i class="icon ion-android-arrow-back"></i>
               <div class="right-area">
-                <h5><a href="/#portfolio"><br>Portfolio</a></h5>
+                <h5><a href="/#portfolio"><br>Home</a></h5>
               </div><!-- right-area -->
             </div><!-- info -->
           </div><!-- col-sm-4 -->
@@ -67,7 +69,6 @@
           </div><!-- col-sm-4 -->
         </div><!-- row -->
       </div><!-- heading-wrapper -->
-      <a class="downlad-btn" href="/resume">Download CV</a>
     </div><!-- container -->
   </header>
 
@@ -75,51 +76,30 @@
     <!-- Services Section Start -->
 
     <section class="portfolio">
-    <div class="container" align="justify" style="width:600px;">
-    
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    <center>
-    <img src="{% static 'portfolio/wengga.png' %}" style="width:400px;">
-    </center>  <br>
-
-    <center>
-    <h4> <a href="http://wengga.herokuapp.com/"> Click below </a> to visit the prototype!</h4>
-    </center><br>
-
-       <center>
-    <a href="http://wengga.herokuapp.com/"><i class="ion-earth" style="font-size: 50px;"></i></a> </center>
-    <br>
+      <div class="container" align="justify" style="width:50%; padding-top: 7%;">
 
 
-    <center>
-    <h4> Web framework for the data collection and the generation of online translators for resource-scarce and indigenous languages.</h4>
-    </center><br>
+          <center>
+          <img src="{% static 'portfolio/wengga.png' %}" style="width:50%;height:66%;">
+          </center>  <br><br>
+
+          <div align="justify" style="border: 0px solid gray; text-align:center;">
+
+            <a href="https://github.com/coltonbishop/wengga" style="padding-left: 20px; padding-right: 30px; padding-bottom: : 20px;"><i class="ion-social-github" style="font-size: 300%;"></i>Source Code</a>
+
+            <a href="http://wengga.herokuapp.com/" style="padding-left: 20px; padding-right: 30px; padding-bottom: : 20px;"><i class="ion-earth" style="font-size: 300%;"></i>Website</a>
+
+            <a href="/projects/nmt" style="padding-left: 20px; padding-right: 30px; padding-bottom: : 20px;"><i class="ion-ios-paper" style="font-size: 300%;"></i>Paper</a>
+          </div><br><br>
 
 
-    <center>
-    <h4> <a href="https://github.com/coltonbishop/wengga"> Click below </a> to check out the source code!</h4>
-    </center><br>
+          <center>
+          <div align="justify" style="font-size: 120%;"> 
+          Wengga is a web platform for the crowd-sourced active learning and machine translation of resource-scarce and indigenous language data. Its goal is to empower communities to collect their own data and create their own translators. The platform prompts users to translate critical sentences (according to a perplexity-based active learning algorithm), and the translators Wengga generates from this data are powered by an attention-based sequence-to-sequence neural network optimized for low-resource machine translation. I was invited by Dr. Steven Bird to partner with his indigenous language research lab in Australia’s N.T. to launch the platform prior to the COVID-19 pandemic. <br><br></div>
+          </center><br>
 
-    <center>
-    <a href="https://github.com/coltonbishop/wengga"><i class="ion-social-github" style="font-size: 50px;"></i></a> </center>
-    <br>
-
-    <center>
-    <h4>  Or click below to read about the backend design and research!</h4>
-    </center><br>
-
-
-    <center>
-    <a href="/projects/nmt"><i class="ion-ios-paper" style="font-size: 50px;"></i></a> </center>
-    <br>
-
-  </div>
-</section>
+      </div>
+    </section>
     <!-- Services Section End -->
 
   
@@ -130,7 +110,7 @@
         
     <!-- Go to Top Link -->
     <a href="#" class="back-to-top">
-    	<i class="lni-arrow-up"></i>
+      <i class="lni-arrow-up"></i>
     </a>
     
     <!-- Preloader -->

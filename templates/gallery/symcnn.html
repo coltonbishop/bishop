@@ -1,4 +1,5 @@
- <!DOCTYPE html>
+
+<!DOCTYPE html>
  {% load static %}
 <html lang="en">
   <head>
@@ -35,6 +36,7 @@
     </head>
 
   <body>
+
   <header>
     <div class="container">
       <div class="heading-wrapper">
@@ -43,7 +45,7 @@
             <div class="info">
               <i class="icon ion-android-arrow-back"></i>
               <div class="right-area">
-                <h5><a href="/#portfolio"><br>Portfolio</a></h5>
+                <h5><a href="/#portfolio"><br>Home</a></h5>
               </div><!-- right-area -->
             </div><!-- info -->
           </div><!-- col-sm-4 -->
@@ -67,7 +69,6 @@
           </div><!-- col-sm-4 -->
         </div><!-- row -->
       </div><!-- heading-wrapper -->
-      <a class="downlad-btn" href="/resume">Download CV</a>
     </div><!-- container -->
   </header>
 
@@ -75,38 +76,49 @@
     <!-- Services Section Start -->
 
     <section class="portfolio">
-    <div class="container">
-    
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    <center>
-    <img src="{% static 'portfolio/aided.png' %}" style="width:400px;">
-    </center>  <br>
-
-    <center>
-    <h4> Research into leveraging human analysis of topology and symmetry to generate improved 3D mesh models from single 2D images with convolutional neural networks. </h4>
-    </center><br>
-
-    <center>
-    <h4> Download or read the full research paper by clicking below!</h4>
-    </center><br>
-
-    <center>
-    <a href="/assistedmodeling"><i class="ion-ios-paper" style="font-size: 50px;"></i></a> </center>
-    <br>
-
-    <center>
-    <img src="{% static 'readmedia/deepmesh/poster.png' %}" style="width:1000px;">
-    </center>  <br>
+      <div class="container" align="justify" style="width:50%; padding-top: 7%;">
 
 
+          <center>
+          <img src="{% static 'portfolio/hive.png' %}" style="width:66%;height:66%;">
+          </center>  <br>
 
-  </div>
-</section>
+          <div align="justify" style="border: 0px solid gray; text-align:center; ">
+
+            <a href="https://github.com/USEPA/hivescience" style="padding-left: 20px; padding-right: 30px; padding-bottom: : 20px;"><i class="ion-social-github" style="font-size: 300%;"></i>Source Code</a>
+
+            <a href="https://www.epa.gov/citizen-science/hivescience"><i class="ion-earth" style="font-size: 300%;"></i> Website</a>
+          </div><br>
+
+
+          <center>
+          <div align="justify" style="font-size: 120%;"> HiveScience is a mobile application that enables citizen scientists to publish data about their beekeeping to help the Environmental Protection Agency track hive health through analysis of honey samples and also track Varroa mite infestations across regions in real-time. It will also provide information about the real-world effectiveness of the miticides registered by EPA. </div>
+          </center><br>
+
+
+          <center>
+          <img src="{% static 'portfolio/aided.png' %}" style="width:400px;">
+          </center>  <br>
+
+          <center>
+          <h4> Research into leveraging human analysis of topology and symmetry to generate improved 3D mesh models from single 2D images with convolutional neural networks. </h4>
+          </center><br>
+
+          <center>
+          <h4> Download or read the full research paper by clicking below!</h4>
+          </center><br>
+
+          <center>
+          <a href="/assistedmodeling"><i class="ion-ios-paper" style="font-size: 50px;"></i></a> </center>
+          <br>
+
+          <center>
+          <img src="{% static 'readmedia/deepmesh/poster.png' %}" style="width:1000px;">
+          </center>  <br>
+
+
+      </div>
+    </section>
     <!-- Services Section End -->
 
   
@@ -117,7 +129,7 @@
         
     <!-- Go to Top Link -->
     <a href="#" class="back-to-top">
-    	<i class="lni-arrow-up"></i>
+      <i class="lni-arrow-up"></i>
     </a>
     
     <!-- Preloader -->
@@ -154,3 +166,9 @@
       
   </body>
 </html>
+
+
+
+
+
+

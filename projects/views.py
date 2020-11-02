@@ -36,9 +36,8 @@ def rype(request):
 	return render(request, 'gallery/rype.html', context)
 
 def symcnn(request):
-	context = {
-	}
-	return render(request, 'gallery/symcnn.html', context)
+	objectpath = 'projects/static/assistedmodeling.pdf'
+	return serve(request, os.path.basename(objectpath), os.path.dirname(objectpath))
 
 def wengganet(request):
 	context = {
